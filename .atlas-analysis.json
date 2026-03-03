@@ -1,0 +1,225 @@
+{
+  "projectType": "framework",
+  "projectName": "Claude Octopus",
+  "projectDescription": "Multi-tentacled orchestrator for Claude Code that coordinates Codex CLI and Gemini CLI for parallel task execution with intelligent contextual routing",
+  "theme": "aspen",
+  "primaryColor": "#8B5CF6",
+  "lightColor": "#A78BFA",
+  "darkColor": "#6D28D9",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/double-diamond",
+              "concepts/multi-ai-orchestration",
+              "concepts/personas"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "workflows/embrace",
+              "workflows/discover",
+              "workflows/define",
+              "workflows/develop",
+              "workflows/deliver",
+              "workflows/dark-factory"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/debate",
+              "features/tdd",
+              "features/security-audit",
+              "features/code-review",
+              "features/cost-transparency"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/providers",
+              "configuration/authentication",
+              "configuration/settings"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Command Reference",
+        "groups": [
+          {
+            "group": "System Commands",
+            "pages": [
+              "commands/setup",
+              "commands/doctor",
+              "commands/claw"
+            ]
+          },
+          {
+            "group": "Workflow Commands",
+            "pages": [
+              "commands/discover",
+              "commands/define",
+              "commands/develop",
+              "commands/deliver",
+              "commands/embrace",
+              "commands/factory"
+            ]
+          },
+          {
+            "group": "Skill Commands",
+            "pages": [
+              "commands/debate",
+              "commands/review",
+              "commands/security",
+              "commands/tdd",
+              "commands/research",
+              "commands/debug"
+            ]
+          },
+          {
+            "group": "Project Lifecycle",
+            "pages": [
+              "commands/status",
+              "commands/resume",
+              "commands/ship"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Agents & Personas",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "agents/overview",
+              "agents/decision-tree"
+            ]
+          },
+          {
+            "group": "Software Engineering",
+            "pages": [
+              "agents/backend-architect",
+              "agents/frontend-developer",
+              "agents/database-architect",
+              "agents/debugger",
+              "agents/code-reviewer"
+            ]
+          },
+          {
+            "group": "Quality & Security",
+            "pages": [
+              "agents/security-auditor",
+              "agents/tdd-orchestrator",
+              "agents/test-automator",
+              "agents/performance-engineer"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "agents/cloud-architect",
+              "agents/devops-troubleshooter",
+              "agents/deployment-engineer",
+              "agents/incident-responder"
+            ]
+          },
+          {
+            "group": "Knowledge Work",
+            "pages": [
+              "agents/ux-researcher",
+              "agents/strategy-analyst",
+              "agents/academic-writer",
+              "agents/product-writer"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Advanced",
+        "groups": [
+          {
+            "group": "OpenClaw Integration",
+            "pages": [
+              "advanced/openclaw-overview",
+              "advanced/mcp-server",
+              "advanced/openclaw-extension"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "advanced/plugin-architecture",
+              "advanced/contributing",
+              "advanced/debugging"
+            ]
+          },
+          {
+            "group": "Trust & Safety",
+            "pages": [
+              "advanced/security",
+              "advanced/data-locations",
+              "advanced/safeguards"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-AI orchestration with Codex, Gemini, and Claude",
+    "Double Diamond workflow methodology (Discover, Define, Develop, Deliver)",
+    "31 specialized AI personas for different development tasks",
+    "48 slash commands for comprehensive workflow automation",
+    "Dark Factory autonomous spec-to-software pipeline",
+    "Adversarial code review with 75% consensus quality gates",
+    "Test-driven development workflows with red-green-refactor discipline",
+    "Security auditing with OWASP compliance scanning",
+    "Cost transparency with visual provider indicators",
+    "OpenClaw compatibility via MCP (Model Context Protocol)",
+    "Persistent state management across sessions",
+    "Provider intelligence with Bayesian trust scoring",
+    "Worktree isolation for parallel agent execution",
+    "Smart cost routing to optimize AI provider selection"
+  ],
+  "publicApiSurface": [
+    "/octo:embrace - Full 4-phase Double Diamond workflow",
+    "/octo:factory - Dark Factory autonomous pipeline",
+    "/octo:discover - Multi-AI research and exploration phase",
+    "/octo:define - Requirements clarification and scoping phase",
+    "/octo:develop - Implementation with quality gates phase",
+    "/octo:deliver - Validation and review phase",
+    "/octo:debate - Structured three-way AI debate",
+    "/octo:review - Multi-perspective code review",
+    "/octo:security - OWASP vulnerability scan",
+    "/octo:tdd - Test-driven development workflow",
+    "/octo:research - Deep multi-source research",
+    "/octo:debug - Systematic debugging investigation",
+    "/octo:setup - Provider configuration and setup",
+    "/octo:doctor - Environment diagnostics",
+    "/octo:claw - OpenClaw instance administration",
+    "/octo:status - Project progress dashboard",
+    "/octo:resume - Restore session context",
+    "/octo:ship - Finalize project with validation",
+    "orchestrate.sh - Core orchestration shell script",
+    "MCP Server - octopus_discover, octopus_define, octopus_develop, octopus_deliver, octopus_embrace, octopus_debate, octopus_review, octopus_security",
+    "Personas - backend-architect, code-reviewer, security-auditor, debugger, tdd-orchestrator, and 26+ more",
+    "OpenClaw Extension - NPM package for OpenClaw integration"
+  ]
+}
